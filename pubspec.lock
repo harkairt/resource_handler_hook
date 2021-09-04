@@ -238,9 +238,11 @@ packages:
   resource_handler:
     dependency: "direct main"
     description:
-      path: "../resource_handler"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "67bd6eba8c2dcd4994c06ea37f41baa6804bd9b7"
+      url: "https://github.com/harkairt/resource_handler"
+    source: git
     version: "0.0.1"
   sky_engine:
     dependency: transitive
